@@ -1,0 +1,12 @@
+{application, tiger_console,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { tiger_console_app, []}},
+  {env, []}
+ ]}.
